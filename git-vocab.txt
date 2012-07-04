@@ -1,0 +1,15 @@
+reset
+
+stage
+
+commit
+
+checkout
+
+merge
+
+branch
+
+diff
+
+
