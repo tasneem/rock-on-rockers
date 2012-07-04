@@ -1,15 +1,29 @@
-reset
+reset: unstages files from the index
+
+-d: to delete a merged branch
+
+index: 
 
 stage
 
 commit
 
-checkout
+checkout: resets everything to how it was before the last commit for a specific file $ git checkout-- file.txt
 
-merge
+merge: merges a branch of your choosing into the current branch.
 
-branch
+branch: "master" is like a default branch, but you might want to make carbon-copies of master and make separate commits to that branch outside of master, and when you're done testing/debugging, merge that branch back into master. $ git branch new_branch
 
 diff
+
+git commit -am: removes deleted files with a commit
+
+git rm: deletes files/folders
+
+pull request:  allows the boss of the project to look through your changes and make comments before deciding to merge in the change.
+
+merge conflicts: are scary! but not that bad! you just look closely at the code and decide what you want to keep and what you want to dump.
+
+force delete: normally, to delete a feature branch, you have to first merge it into master (true?). if you don't want to do that, you can use -f or -D, which is like -d and -f in one. 
 
 
